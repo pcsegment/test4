@@ -5,8 +5,12 @@ import java.util.List;
 
 import org.json.*;
 //************
+<<<<<<< HEAD
 ///
 ////
+=======
+///*********
+>>>>>>> refs/heads/new
 public class json {
 	public static void main(String[] args)  throws JSONException{
         StringCreateJson();
