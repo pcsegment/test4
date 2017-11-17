@@ -1,5 +1,6 @@
 package com.dmkj.test;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,7 +9,10 @@ import org.json.*;
 
 public class json {
 	public static void main(String[] args)  throws JSONException{
-        StringCreateJson();
+       // StringCreateJson();
+		json json1 = new json();
+		File f = new File(json1.getClass().getResource("").getPath());
+		System.out.println(f);
     }
     
 	
